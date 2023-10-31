@@ -1,38 +1,5 @@
 Img: https://github.com/FoulTrip/holbertonschool-system_engineering-devops/blob/master/imgs/img-0.png
 
-What is a server?
-It is a computer or software system that provides services and resources to other computers over a network. In this infrastructure, it refers to the physical or virtual machine that hosts web, application and database servers.
-
-What is the role of the domain name?
-In this case, "www.foobar.com," it is an address that helps users access a website. It acts as a pointer to the server's IP address (8.8.8.8.8) using DNS records.
-
-What type of DNS record is "www" in "www.foobar.com"?
-The "www" in "www.foobar.com" usually refers to a DNS record of type CNAME (Canonical Name). This type of record links the subdomain "www" to the main domain "foobar.com," allowing the website to be accessible through www.foobar.com.
-
-What is the role of the web server?
-The web server (Nginx in this case) handles incoming HTTP requests from users and delivers web pages and resources to their web browsers. It manages the communication between the user's computer and the application server.
-
-What is the role of the application server?
-The application server executes the code base of the web site. It processes dynamic content, interacts with the database and generates HTML or other content to be served by the web server. It is responsible for executing the business logic of the application.
-
-What is the role of the database?
-The database (MySQL) stores and manages website data, including user accounts, content and settings. It is responsible for data storage and retrieval, ensuring data integrity and consistency.
-
-What does the server communicate with the computer of the user requesting the web site?
-The server communicates with the user's computer requesting the website through the HTTP (Hypertext Transfer Protocol) protocol over the Internet. The user's web browser sends HTTP requests to the server, and the server responds with the requested web pages and resources.
-
-Problems with this infrastructure:
-
-Single Point of Failure (SPOF):
-The infrastructure has a single server, which represents a single point of failure. If this server suffers a hardware failure or other problems, the website will become inaccessible. Redundancy and failover mechanisms are needed to address this problem.
-
-Downtime during Maintenance:
-When deploying new code or performing maintenance, the web server needs to be restarted, which results in downtime and can be disruptive to users. Implementing continuous deployments or failover deployments can minimize downtime.
-
-Limited scalability:
-Infrastructure may have difficulty handling high incoming traffic. It is not easily scalable. To address this problem, consider horizontal scalability (adding more servers) or using load balancers to effectively distribute traffic.
-
-
 other questions
 
 Data center:
