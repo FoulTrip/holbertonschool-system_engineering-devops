@@ -1,11 +1,119 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
-  "elements": [],
-  "appState": {
-    "gridSize": null,
-    "viewBackgroundColor": "#ffffff"
-  },
-  "files": {}
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "2La_j3ZG_tt2LCI4fWOVA",
+      "type": "rectangle",
+      "x": 929.8205465979916,
+      "y": -35.573606213615776,
+      "width": 578.3999633789062,
+      "height": 41.600006103515625,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 72920831,
+      "version": 621,
+      "versionNonce": 1817592191,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "ab4V2jlHFsTOVKFRNk-6K"
+        },
+        {
+          "id": "AEBZIsZXDA0DG0zYOvTMl",
+          "type": "arrow"
+        },
+        {
+          "id": "VcCRuFNMyZqTUJjzYFuFC",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698780040124,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "ab4V2jlHFsTOVKFRNk-6K",
+      "type": "text",
+      "x": 1098.3606161780697,
+      "y": -27.273603161857963,
+      "width": 241.31982421875,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1811155423,
+      "version": 471,
+      "versionNonce": 1548212721,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698780040124,
+      "link": null,
+      "locked": false,
+      "text": "Load balancer - HAproxy",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 18,
+      "containerId": "2La_j3ZG_tt2LCI4fWOVA",
+      "originalText": "Load balancer - HAproxy",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "J6wHN1b9W8-sbXqGb_7Jm",
+      "type": "text",
+      "x": 100.0,
+      "y": 10.0,
+      "width": 800.0,
+      "height": 400.0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fff",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1406090651,
+      "version": 25,
+      "versionNonce": 258318228,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1638417359031,
+      "link": null,
+      "locked": false,
+      "text": "Requirements:\n\nYou must add:\n3 firewalls\n1 SSL certificate to serve www.foobar.com over HTTPS\n3 monitoring clients (data collector for Sumologic or other monitoring services)\nYou must be able to explain some specifics about this infrastructure:\nFor every additional element, why you are adding it\nWhat are firewalls for\nWhy is the traffic served over HTTPS\nWhat monitoring is used for\nHow the monitoring tool is collecting data\nExplain what to do if you want to monitor your web server QPS\nYou must be able to explain what the issues are with this infrastructure:\nWhy terminating SSL at the load balancer level is an issue\nWhy having only one MySQL server capable of accepting writes is an issue\nWhy having servers with all the same components (database, web server and application server) might be a problem\nPlease, remember that everything must be written in English to further your technical ability in a variety of settings.",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 15,
+      "lineHeight": 1.2
+    }
+  ]
 }
